@@ -76,6 +76,8 @@ def display_county_graph(clickData: dict) -> px.line:
     return fig
 
 
-def main():
-    app.title = 'Coronavirus Dashboard'
+if __name__ == '__main__':
     app.run_server(debug=True)
+# def main():
+#     app.title = 'Coronavirus Dashboard'
+#     app.run_server(debug=True)
